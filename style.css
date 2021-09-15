@@ -250,6 +250,9 @@ a:hover {
     .Card-1, .Card-2 {
         width: 100%;
     }
+    .Card-1 {
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width:450px) {
