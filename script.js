@@ -145,7 +145,7 @@ let weather = {
         document.querySelector("#t4").innerText = Math.round(Number(temp4)) + "°C";
 
         document.querySelector(".Card").classList.remove("Loading");
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + cityname +"')"
+        document.body.style.background = "linear-gradient(45deg, #00000096, #0000008f), url('https://source.unsplash.com/1600x900/?" + cityname +"')"
     },
 
     search: function() {
